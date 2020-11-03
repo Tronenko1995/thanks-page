@@ -1,0 +1,247 @@
+.thanks-page {
+.photo-message {
+    background: #F5F5F5;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    &__wrap {
+        width: 1280px;
+        background: url('../img/businesswoman.jpg');
+        min-height: 472px;
+        // mix-blend-mode: darken;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+    }
+    &__block {
+        min-height: 472px;
+        // mix-blend-mode: hard-light;
+        background: rgba(255, 255, 255, 0.65);
+        padding: 46px 0 41px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__block-text {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: normal;
+
+        &-1 {
+            font-size: 18px;
+            line-height: 22px;
+            color: #000;
+        }
+        &-2 {
+            margin-top: 20px;
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 59px;
+            color: #43A047;
+        }
+        &-3 {
+            margin-top: 20px;
+            font-size: 18px;
+            line-height: 22px;
+            color: #000;
+        }
+        &-4 {        
+            margin-top: 11px;    
+            font-size: 18px;
+            line-height: 22px;
+            color: #000;
+        }
+        &-5 {
+            margin-top: 30px;
+            font-weight: 800;
+            font-size: 48px;
+            line-height: 59px;
+            color: #FF8F00;
+        }
+        &-6 {
+            margin-top: 22px;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 29px;
+            text-align: center;
+            color: #F44336;
+            width: 724px;
+        }
+        &-7 {
+            margin-top: 20px;
+            font-size: 9px;
+            line-height: 11px;
+            color: #000;
+        }
+    }
+}
+}
+
+
+
+@media (max-width: 885px) {
+
+.thanks-page {
+    .photo-message {
+        background: #FFFFFF;
+        // width: 100%;
+        // display: flex;
+        // justify-content: center;
+    
+        &__wrap {
+            // width: 1280px;
+            // background: url('../img/businesswoman.jpg');
+            min-height: 242px;
+            // mix-blend-mode: darken;
+            // background-repeat: no-repeat;
+            // background-position: 50% 50%;
+            background-size: cover;
+        }
+        &__block {
+            min-height: 242px;
+            // mix-blend-mode: hard-light;
+            // background: rgba(255, 255, 255, 0.65);
+            padding: 15px 0 16px 0;
+            // display: flex;
+            // flex-direction: column;
+            // align-items: center;
+        }
+        &__block-text {
+            // font-family: 'Montserrat';
+            // font-style: normal;
+            // font-weight: normal;
+    
+            &-1 {
+                font-size: 12px;
+                line-height: 15px;
+                // color: #000;
+            }
+            &-2 {
+                margin-top: 10px;
+                // font-weight: 600;
+                font-size: 28px;
+                line-height: 34px;
+                // color: #43A047;
+            }
+            &-3 {
+                margin-top: 14px;
+                font-size: 12px;
+                line-height: 15px;
+                // color: #000;
+            }
+            &-4 {        
+                margin-top: 5px;    
+                font-size: 12px;
+                line-height: 15px;
+                // color: #000;
+            }
+            &-5 {
+                margin-top: 15px;
+                // font-weight: 800;
+                font-size: 28px;
+                line-height: 34px;
+                // color: #FF8F00;
+            }
+            &-6 {
+                margin-top: 9px;
+                // font-weight: 600;
+                font-size: 12px;
+                line-height: 15px;
+                // text-align: center;
+                // color: #F44336;
+                width: 450px;
+            }
+            &-7 {
+                margin-top: 5px;
+                font-size: 6px;
+                line-height: 7px;
+                // color: #000;
+            }
+        }
+    }
+    }
+}
+
+@media (max-width: 500px) {
+
+    .thanks-page {
+        .photo-message {
+            // background: #FFFFFF;
+            // width: 100%;
+            // display: flex;
+            // justify-content: center;
+        
+            &__wrap {
+                // width: 1280px;
+                // background: url('../img/businesswoman.jpg');
+                // min-height: 242px;
+                // mix-blend-mode: darken;
+                // background-repeat: no-repeat;
+                // background-position: 50% 50%;
+                // background-size: cover;
+            }
+            &__block {
+                min-height: 242px;
+                // mix-blend-mode: hard-light;
+                // background: rgba(255, 255, 255, 0.65);
+                padding: 15px;
+                // display: flex;
+                // flex-direction: column;
+                // align-items: center;
+            }
+            &__block-text {
+                // font-family: 'Montserrat';
+                // font-style: normal;
+                // font-weight: normal;
+                text-align: center;
+        
+                &-1 {
+                    font-size: 10px;
+                    // line-height: 15px;
+                    // color: #000;
+                }
+                &-2 {
+                    // margin-top: 10px;
+                    // font-weight: 600;
+                    font-size: 22px;
+                    // line-height: 34px;
+                    // color: #43A047;
+                }
+                &-3 {
+                    // margin-top: 14px;
+                    // font-size: 12px;
+                    // line-height: 15px;
+                    // color: #000;
+                }
+                &-4 {        
+                    // margin-top: 5px;    
+                    // font-size: 12px;
+                    // line-height: 15px;
+                    // color: #000;
+                }
+                &-5 {
+                    // margin-top: 15px;
+                    // font-weight: 800;
+                    // font-size: 28px;
+                    // line-height: 34px;
+                    // color: #FF8F00;
+                }
+                &-6 {
+                    // margin-top: 9px;
+                    // font-weight: 600;
+                    // font-size: 12px;
+                    // line-height: 15px;
+                    // text-align: center;
+                    // color: #F44336;
+                    width: 100%;
+                }
+                &-7 {
+                    // margin-top: 5px;
+                    // font-size: 6px;
+                    // line-height: 7px;
+                    // color: #000;
+                }
+            }
+        }
+        }
+    }
